@@ -13,6 +13,7 @@ The wide array of integrated functions, such as the implementation of code and v
 ### Core features of Quarto
 
 Some of the core features discussed in this lesson are:
+
 + Creation of easily convertible .qmd files using Markdown and Pandoc
 + Multi-format display of data
 + Integration and display of code and illustrations in multiple coding languages
