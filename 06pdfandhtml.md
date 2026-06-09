@@ -104,8 +104,8 @@ To implement such a theme you simply need to add it to your YAML header like thi
       dark: darkly
 ```
 The following example uses the two styles shown above:
-![](https://pad.zdv.net/uploads/94c9e100-1544-4f23-ab14-c3a8fca8fa75.png)
-![](https://pad.zdv.net/uploads/98065ef7-da80-4397-b997-5a6c00c84afa.png)
+<img style="display: block; margin: auto;" src="images/pdfhtml_02.png">
+<img style="display: block; margin: auto;" src="images/pdfhtml_01.png">
 
 ::: challenge
 ### Exercise:
