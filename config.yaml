@@ -8,40 +8,32 @@
 # lc: Library Carpentry
 # cp: Carpentries (to use for instructor training for instance)
 # incubator: The Carpentries Incubator
-# 
-# This option supports custom types so lessons can be branded
-# and themed with your own logo and alt-text (see `carpentry_description`)
-# See https://carpentries.github.io/sandpaper-docs/editing.html#adding-a-custom-logo
 carpentry: 'incubator'
 
-# Alt-text description of the lesson.
-carpentry_description: 'Lesson Description'
-
 # Overall title for pages.
-title: 'Lesson Title' # FIXME
+title: 'Using Quarto for scientific papers'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: ~ # FIXME
+created: 2024-04-05
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, data, lesson, The Carpentries' # FIXME
+keywords: 'digital humanities, publishing, lesson, markdown, pre-alpha, english' # FIXME
 
 # Life cycle stage of the lesson
-# refer to <https://docs.carpentries.org/resources/curriculum/lesson-life-cycle.html> for details
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'pre-alpha' # FIXME
+life_cycle: 'pre-alpha'
 
 # License of the lesson
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries/workbench-template-md' # FIXME
+source: 'https://hermes-dkz.github.io/quarto-publishing/'
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org' # FIXME
+contact: 'steuhl@students.uni-mainz.de'
 
 # Navigation ------------------------------------------------
 #
@@ -67,7 +59,14 @@ contact: 'team@carpentries.org' # FIXME
 
 # Order of episodes in your lesson
 episodes: 
-- introduction.md
+- 01introduction.md
+- 02gettingstarted.md
+- 03markdownbasics.md
+- 04yaml.md
+- 05codeinquarto.md 
+- 06pdfandhtml.md
+- 07bibliography.md
+- 08creatingwebsites.md
 
 # Information for Learners
 learners: 
@@ -82,5 +81,3 @@ profiles:
 #
 # This space below is where custom yaml items (e.g. pinning
 # sandpaper and varnish versions) should live
-
-
