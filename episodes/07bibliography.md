@@ -51,24 +51,29 @@ Doing so will accomplish two things: It will open a new window called "Insert ci
 
 This new file will contain your newly created bibliography, which can now be filled in a variety of ways.
 The easiest to do are the four already integrated options of either searching for a publication through their DOI (a unique number given to all published articles and books) or by searching through the databases of Crossref, Datacite or Pubmed.
-Simply add relevant information such as the DOI, Title or name of the author into the search bar and see what you can find there. In the best case your needed citation is already part of one of these databases.
+Simply add relevant information such as the DOI, title or name of the author into the search bar and see what you can find there. In the best case your needed citation is already part of one of these databases.
 
-In our paper we want to reference Alan Wallachs scentific reviiew of the book "Museums and American Intellectual Life, 1876–1926 " by Steven Conn.
+In our paper we want to reference Alan Wallachs scentific review of the book "Museums and American Intellectual Life, 1876–1926 " by Steven Conn.
 In order to do so we can simply search for Alan Wallachs name using the Crossref database.
 ![](https://pad.zdv.net/uploads/fb2f8f12-68db-478f-8db6-b2a4cd7af9ee.png)
 
 By pressing the + button on the right, we can quickly add it to our bibliography.
 
-We also want to add a refernce to the the article "Selling the American Dream: MoMA, Industrial Design and Post-War France" by Gay McDonald.
+We also want to add a reference to the the article "Selling the American Dream: MoMA, Industrial Design and Post-War France" by Gay McDonald. Sadly the article is found in none of the integrated databases.
 As we are not able to find the article using the integrated databanks, we have to add it manually. 
-In order to do this, you need to open your newly created references.bib file with a text editor of your choice. This can also be done in Visual studio code.
+In order to do this, you need to open your newly created references.bib file with a text editor of your choice. This can also be done in Visual Studio Code.
 ![](https://pad.zdv.net/uploads/b2d8db2d-926f-4ba5-aeba-6f0601544743.png)
 
 In this file you will find all your already added references in form of code chunks.
 The citation function uses a format called Bibtex, which is used by a variety of databases. 
-It is in part made up of a reference name, signified by a @, which is used internally as a unique signifier of this specific reference. Following this are the reference name, which will be shown in your Quarto document when using the citation function, and a variety of information inside {} brackets. These contain the relevant metadata of the publication.
 
-You can now simply add further objects to your list of references by either manually typing in additional sources, or by copy and pasting the relevant BibTex chunks from other websites. Many Websites used to publish academic texts, such as Jstor, or libraries offer the download oft txt files containing the relevant BibTex Chunks as part of their own citation functions.
+It is, in part, made up of a reference name, signified by a @, which is used internally as a unique signifier of this specific reference.
+
+Following this are the reference name, which will be shown in your Quarto document when using the citation function, and a variety of information inside {} brackets. These contain the relevant metadata of the publication.
+As you can see, the information is stored in form of Key-Value pairs, similar to the YAML headers we have already encountered. they contain information such author, publication date, DOI or relevant URLs. 
+You can freely add or subtract information should you find yourself missing some information. But as academic best practice, the authots name, publication date and publisher should always be names as part of a citation or literary reference.
+
+You can now simply add further objects to your list of references by either manually typing in additional sources, or by copy and pasting the relevant BibTex chunks from other websites. Many Websites used to publish academic texts, such as Jstor, or libraries, offer the download of txt files containing the relevant BibTex Chunks as part of their own citation functions.
 Here is an example using Jstor:
 ![](https://pad.zdv.net/uploads/0d7a5347-3b4c-461c-9ac8-215894a0dda0.png)
 
@@ -81,7 +86,7 @@ Here you will now find your newly added reference as part of you bibliography:
 ![](https://pad.zdv.net/uploads/b26f826c-4fb1-4609-a002-4beb505fe335.png)
 
 Now you can simply click on the different references in order to insert them into your work. 
-In our case we want to add McDonalds article as areference into our text.
+In our case we want to add McDonalds article as a reference into our text.
 This will create a reference in the following format: [[@63aecae8-5ed6-394e-883b-12026c168381]] in source mode.
 The rendered Document will have the Authors name and the publication date in brackets in its place.
 Using the reference feature will also create a reference index at the bottom of your rendered document. This index will contain a full bibliographical list of all used refences, using the information contained in the reference.bib file.
@@ -90,6 +95,7 @@ The result could look something like this:
 
 ::: challenge
 ### Exercise
-Use the **References** and **Footnote** features to enrich your document with citations.  
-Create and fill out a bibliography, then render your document one last time.
+Use the **References** and **Footnote** features to enrich your document with citations. 
+Try to find publications that you already know from previous projects, yourself or collegues. If they are not part of the integrated databases, try to add them manually to your reference.bib file!
+Create and fill out your bibliography, then render your document one last time.
 :::
