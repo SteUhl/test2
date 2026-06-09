@@ -50,7 +50,7 @@ Where we previously had comple freedom when it came to naming our document, this
 
 :::
 
-Once we named our webpage, we an start filling it.
+Once we named our webpage, we need to start filling it.
 
 We start with a very simple YAML header. In contrast to our previous headers, this one only need to Key-Value pairs: the title and the format.
 While the format needs to be set as html, when deciding on the title you again have complete freedom.
