@@ -1566,7 +1566,7 @@ same rank.</p>
   Here is an example of this Graphviz in your document:
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <figure><img src="images/code_02.png" class="figure mx-auto d-block"></figure>
 </div>
@@ -1989,23 +1989,22 @@ to use these.</p>
 <section><h2 class="section-heading" id="footnotes">Footnotes:<a class="anchor" aria-label="anchor" href="#footnotes"></a>
 </h2>
 <hr class="half-width">
-<p><img style="float: right;" src="https://pad.zdv.net/uploads/824de089-c707-4076-bd50-3c2c8fe24fe6.png" class="figure">
-Footnotes offer an easy way to add useful information or literature to
-your text. They can be implemented into your Quarto document by using
+<p>Footnotes offer an easy way to add useful information or literature
+to your text. They can be implemented into your Quarto document by using
 the Insert -&gt; Footnotes option in the Visual Mode of Quarto.</p>
-<p>Let us now add a quick footnote to our paper on the MoMA. In order to
+<figure><img src="images/bibliograpy_footnotes01.png" class="figure mx-auto d-block"></figure><p>Let us now add a quick footnote to our paper on the MoMA. In order to
 do so we just have to add the text for our footnote into the new textbox
-on tghe lower part of the VSCode window: <img src="https://pad.zdv.net/uploads/c3174576-c563-4404-89b4-0fda49e03143.png" class="figure"></p>
-</section><section><h2 class="section-heading" id="citations">Citations<a class="anchor" aria-label="anchor" href="#citations"></a>
+on tghe lower part of the VSCode window:</p>
+<figure><img src="images/bibliograpy_footnotes02.png" class="figure mx-auto d-block"></figure></section><section><h2 class="section-heading" id="citations">Citations<a class="anchor" aria-label="anchor" href="#citations"></a>
 </h2>
 <hr class="half-width">
 <p>In a similar vein to footnotes, you can also directly add citations
 to your document. This can be done through the Insert window of the
-Visual Mode: <img src="https://pad.zdv.net/uploads/563f1c2c-4aab-4a60-84b5-222be982b5f3.png" class="figure"></p>
-<p>Doing so will accomplish two things: It will open a new window called
+Visual Mode:</p>
+<figure><img src="images/bibliograpy_citations01.png" class="figure mx-auto d-block"></figure><p>Doing so will accomplish two things: It will open a new window called
 “Insert citation”, and it will create a new file called “references.bib”
-in your working folder. <img src="https://pad.zdv.net/uploads/f0b75353-7f33-47b4-8fa5-d8e9c426e3d3.png" class="figure"></p>
-<p>This new file will contain your newly created bibliography, which can
+in your working folder.</p>
+<figure><img src="images/bibliograpy_citations02.png" class="figure mx-auto d-block"></figure><p>This new file will contain your newly created bibliography, which can
 now be filled in a variety of ways. The easiest to do are the four
 already integrated options of either searching for a publication through
 their DOI (a unique number given to all published articles and books) or
@@ -2016,8 +2015,8 @@ case your needed citation is already part of one of these databases.</p>
 <p>In our paper we want to reference Alan Wallachs scentific review of
 the book “Museums and American Intellectual Life, 1876–1926” by Steven
 Conn. In order to do so we can simply search for Alan Wallachs name
-using the Crossref database. <img src="https://pad.zdv.net/uploads/fb2f8f12-68db-478f-8db6-b2a4cd7af9ee.png" class="figure"></p>
-<p>By pressing the + button on the right, we can quickly add it to our
+using the Crossref database.</p>
+<figure><img src="images/bibliograpy_citations03.png" class="figure mx-auto d-block"></figure><p>By pressing the + button on the right, we can quickly add it to our
 bibliography.</p>
 <p>We also want to add a reference to the the article “Selling the
 American Dream: MoMA, Industrial Design and Post-War France” by Gay
@@ -2025,8 +2024,8 @@ McDonald. Sadly the article is found in none of the integrated
 databases. As we are not able to find the article using the integrated
 databanks, we have to add it manually. In order to do this, you need to
 open your newly created references.bib file with a text editor of your
-choice. This can also be done in Visual Studio Code. <img src="https://pad.zdv.net/uploads/b2d8db2d-926f-4ba5-aeba-6f0601544743.png" class="figure"></p>
-<p>In this file you will find all your already added references in form
+choice. This can also be done in Visual Studio Code.</p>
+<figure><img src="images/bibliograpy_citations04.png" class="figure mx-auto d-block"></figure><p>In this file you will find all your already added references in form
 of code chunks. The citation function uses a format called Bibtex, which
 is used by a variety of databases.</p>
 <p>It is, in part, made up of a reference name, signified by a @, which
@@ -2046,13 +2045,13 @@ either manually typing in additional sources, or by copy and pasting the
 relevant BibTex chunks from other websites. Many Websites used to
 publish academic texts, such as Jstor, or libraries, offer the download
 of txt files containing the relevant BibTex Chunks as part of their own
-citation functions. Here is an example using Jstor: <img src="https://pad.zdv.net/uploads/0d7a5347-3b4c-461c-9ac8-215894a0dda0.png" class="figure"></p>
-<p>And here is how it looks when added to your reference.bib file: <img src="https://pad.zdv.net/uploads/75f52405-4829-4bb1-aeb8-b7330593d701.png" class="figure"></p>
-<p>Once you have added the new code chunk to you refernces.bb file, you
+citation functions. Here is an example using Jstor:</p>
+<figure><img src="images/bibliograpy_citations05.png" class="figure mx-auto d-block"></figure><p>And here is how it looks when added to your reference.bib file:</p>
+<figure><img src="images/bibliograpy_citations06.png" class="figure mx-auto d-block"></figure><p>Once you have added the new code chunk to you refernces.bb file, you
 can save (Ctrl+S) and return to your “Insert Citation” window. Here you
-will now find your newly added reference as part of you bibliography:
-<img src="https://pad.zdv.net/uploads/b26f826c-4fb1-4609-a002-4beb505fe335.png" class="figure"></p>
-<p>Now you can simply click on the different references in order to
+will now find your newly added reference as part of you
+bibliography:</p>
+<figure><img src="images/bibliograpy_citations07.png" class="figure mx-auto d-block"></figure><p>Now you can simply click on the different references in order to
 insert them into your work. In our case we want to add McDonalds article
 as a reference into our text. This will create a reference in the
 following format: [<span class="citation">[@63aecae8-5ed6-394e-883b-12026c168381]</span>] in
@@ -2061,8 +2060,8 @@ publication date in brackets in its place. Using the reference feature
 will also create a reference index at the bottom of your rendered
 document. This index will contain a full bibliographical list of all
 used refences, using the information contained in the reference.bib
-file. The result could look something like this: <img src="https://pad.zdv.net/uploads/90afe058-a7d8-450c-8a22-206d77e13402.png" class="figure"></p>
-<div id="exercise" class="callout discussion">
+file. The result could look something like this:</p>
+<figure><img src="images/bibliograpy_citations08.png" class="figure mx-auto d-block"></figure><div id="exercise" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
@@ -2076,6 +2075,24 @@ publications that you already know from previous projects, yourself or
 collegues. If they are not part of the integrated databases, try to add
 them manually to your reference.bib file! Create and fill out your
 bibliography, then render your document one last time.</p>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<span class="callout-header">Key Points</span>
+<div class="callout-inner">
+<div class="callout-content">
+<ul>
+<li>Quarto has an integrated Bibliography feature</li>
+<li>The bibliography can be accessed via the visual mode</li>
+<li>You can add literature via four integrated databases, or by manually
+typing them into the reference.bib file</li>
+<li>Literature added via the bibliography feature can be added into the
+text via footnotes and citations</li>
+</ul>
 </div>
 </div>
 </div>
