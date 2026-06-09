@@ -34,7 +34,13 @@
     <loc>https://quarto-publishing.github.io/NA/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://quarto-publishing.github.io/NA/aio.html</loc>
+  </url>
+  <url>
     <loc>https://quarto-publishing.github.io/NA/citation.html</loc>
+  </url>
+  <url>
+    <loc>https://quarto-publishing.github.io/NA/images.html</loc>
   </url>
   <url>
     <loc>https://quarto-publishing.github.io/NA/index.html</loc>
@@ -73,16 +79,34 @@
     <loc>https://quarto-publishing.github.io/NA/instructor/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://quarto-publishing.github.io/NA/instructor/aio.html</loc>
+  </url>
+  <url>
     <loc>https://quarto-publishing.github.io/NA/instructor/citation.html</loc>
   </url>
   <url>
+    <loc>https://quarto-publishing.github.io/NA/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://quarto-publishing.github.io/NA/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://quarto-publishing.github.io/NA/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://quarto-publishing.github.io/NA/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>https://quarto-publishing.github.io/NA/instructor/profiles.html</loc>
   </url>
   <url>
     <loc>https://quarto-publishing.github.io/NA/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://quarto-publishing.github.io/NA/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://quarto-publishing.github.io/NA/key-points.html</loc>
   </url>
   <url>
     <loc>https://quarto-publishing.github.io/NA/profiles.html</loc>
