@@ -25,7 +25,7 @@ exercises: 1
 In order to work in a clean and organized environment, we will first create a new working folder and choose to use it in Visual Studio Code. 
 In order to do so, we will first open the options in the upper left corner of the window (depicted as three parallel horizontal lines). There we will follow the path of File -> Open Folder.
 
-<img style="display: block; margin: auto;" src="images/gettingstarted_01.png" width="350">
+![](images/gettingstarted_01.png)
 
 Here we can then create a new folder, which we call ***"Art_distribution_paper"***.
 Once selected, it will open the folder in VSCode and select it as our new working environment. All new documents, outputs and relevant data will be stored in this folder.
@@ -43,7 +43,7 @@ As we are currently working on the very basics, we will choose the "Quarto Docum
 
 After opening the new file, you should see the following:
 
-<img style="display: block; margin: auto;" src="images/gettingstarted_02.png">
+![](images/gettingstarted_02.png)
 
 The "empty" Documents only contain a small YAML header with generic information about title and format of the document.
 
@@ -63,28 +63,38 @@ We will be working with both the source and the visual layout of Quarto. You wil
 You can easily switch between the two editing modes by right clicking on your screen and selecting "Edit in Visual/Source Mode". This will instantly switch you over. 
 In this lesson we will continue to work with Source Mode.
 
-<img style="display: block; margin: auto;" src="images/gettingstarted_03.png" width="350">
+![](images/gettingstarted_03.png)
 
 :::
 
 ## Rendering Your document
 
 To render your document and see its final look, you need to click the "Preview" Button on the top right side of the screen:
-<img style="display: block; margin: auto;" src="images/gettingstarted_04.png">
+![](images/gettingstarted_04.png)
+
 
 Alternatively you can use Ctrl+Shift+K.
 
 This will have two effects:
 1. It will create a new file in your "Art_distribution_paper" folder, corresponding to your chosen format.
-   
-    <img style="display: block; margin: auto;" src="images/gettingstarted_06.png" width="150">
-   
+
+   ![](images/gettingstarted_06.png)
+
 3. It will split your screen and show you your preview on the right side of VSCode.
-   
-   <img style="display: block; margin: auto;" src="images/gettingstarted_05.png" width="550">
+
+   ![](images/gettingstarted_05.png)
 
 ::: challenge
 ### Exercise:
 Create a new folder called "Quarto_lesson" and open it in VSCode. Open a new Quarto document in VSCode and save it in your newly created folder.
 
 :::
+
+::::::::::::::::::::::::::::::::::::: keypoints
+
++ You can create a new working folder in Visual Studio Code
++ there are twio kinds of Quarto files: Quarto documents and Quarto projects
++ You can seemlessly switch between a sourcemode and a visual mode
++ You can render your document via the "Preview" button
+
+::::::::::::::::::::::::::::::::::::::::::::::
