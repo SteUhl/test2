@@ -45,7 +45,7 @@ Now we are almost done. There are only a few more steps to be done. First we wan
 
 For our paper to be considered as academically we naturally need to provide an abundent amount of sources in form of footnotes, literature and and solid bibliography. Thankfully Quarto offers us a nice and easy to understand integrated bibliography feature, which we will ise to enrich our paper with sources. This will be shown and done thorughout our episode "Using the Bibliography".
 
-Finally we are finished with our paper! But now the option to create a complimentary website, on which we present our findings, sound very enticing. So we will do so with the options Quarto offers us. This will be done in our last episode "Creating a simple website with Quarto"
+Finally we are finished with our paper! But now the option to create a complimentary website, on which we present our findings, sound very enticing. So we will do so with the options Quarto offers us. This will be done in our last episode "Creating a simple website with Quarto" 
 
 
 ::: caution

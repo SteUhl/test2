@@ -16,7 +16,7 @@ exercises: 1
 
 - Learn the basics of citations and footnotes in Quarto.
 - Learn to insert footnotes.
-- Learn to create citations in a document.
+- Learn to create citations in a document. 
 - Learn to find publications in the integrated databases and insert them manually into your references file
 - Learn how to expand your bibliography.
 

@@ -16,7 +16,7 @@ exercises: 1
 
 + Open a new Quarto document.
 + Create a working folder
-+ Switch between editing modes
++ Switch between editing modes 
 
 :::
 

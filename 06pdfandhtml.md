@@ -11,7 +11,7 @@ exercises: 1
 :::
 
 ::: objectives
-
+ 
 - Implement format, font and documentclass characteristics in a PDF Quarto document.
 - Implement themes in a HTML Quarto document.
 

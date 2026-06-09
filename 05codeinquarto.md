@@ -6,7 +6,7 @@ exercises: 2
 
 ::: questions 
 
-- How do you implement code in Quarto?
+- How do you implement code in Quarto? 
 - How to use code to create visualisations and graphs?
 - How do you annotate visualisations?
   
