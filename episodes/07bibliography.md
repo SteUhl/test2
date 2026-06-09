@@ -32,14 +32,11 @@ For this part of the lesson, we will switch from Source Mode to Visual Mode, in 
 :::
 
 ## Footnotes:
-
+<img style="float: right;" src="https://pad.zdv.net/uploads/824de089-c707-4076-bd50-3c2c8fe24fe6.png">
 Footnotes offer an easy way to add useful information or literature to your text. 
 They can be implemented into your Quarto document by using the Insert -> Footnotes option in the Visual Mode of Quarto.
-<img style="float: right;" src="https://pad.zdv.net/uploads/824de089-c707-4076-bd50-3c2c8fe24fe6.png">
 
-------
 
-![](https://pad.zdv.net/uploads/824de089-c707-4076-bd50-3c2c8fe24fe6.png)
 
 Let us now add a quick footnote to our paper on the MoMA.
 In order to do so we just have to add the text for our footnote into the new textbox on tghe lower part of the VSCode window:
