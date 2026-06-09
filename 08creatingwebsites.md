@@ -16,8 +16,6 @@ exercises: 0
 - Learn how to create a .yml file to connect your Quarto documents.
 - Learn the contents of a .yml file.
 
-
-
 :::
 
 A more advanced function of Quarto is, that users can not only create simple and standalone html pages and documets, but can also create more complex and connected webpages.
@@ -45,6 +43,7 @@ in order to do so we create a new document in our folder by navigating to the le
 We then choose to create a Quarto document. By saving it (Ctrl+S), we can name it. 
 
 ::: caution
+
 ### Important!
 Where we previously had comple freedom when it came to naming our document, this one need to have the name **"index.qmd"** in order to function as our mainpage!
 
@@ -64,7 +63,8 @@ Always try to choose speaking and easy to understand titles and filenames, in or
 In our case we will give this page the title "mainpage" and start to fill it with text and other media.
 The filling of our document follows the same rules and steps that you have learned previously. You can simply add a header by using # and hen add some text.
 When we do this with our main page it could look like this:
-![](https://pad.zdv.net/uploads/b57dd590-3fb2-4290-8abf-6ac42c3377c6.png){fig-align="center"}
+
+![](images/website_01.png)
 
 #### Adding pictures
 
@@ -74,7 +74,8 @@ To make sure our pictures can always be accessed we will add them to our folder 
 This can be simple done by copying the chosen file into our folder. But while this is the easiest solution, it also can get disorganized and chaotic fast, if you choose to add a lot of different images to your website.
 Because we want to try to keep our folder structure neat and easy to navigate we will put our images into a new folder calles "images" which we will put into our "moma_website" fodler.
 Now we add our picture into this newly created folder:
-![](https://pad.zdv.net/uploads/a9e217af-ff3e-42e4-91c1-5503b574ac69.png){fig-align="center"}
+
+![](images/website_02.png)
 
 When we now want to insert this image into our main page we simple have to enter the following code into our Quarto document:
 
@@ -101,6 +102,7 @@ In order to connect our different document and give our files the needed formatt
 To create this file we again navigate down the "File" -> "New File" path, as we did with our other documents. But instead of choosing to create a Quarto document, we will now enter something different into our text window.
 
 ::: caution
+
 ### Important!
 Like with our mainpage, this file also needs a very specific name: "_quarto.yml."
 You see the file ending is now .yml insted of .qmd.
@@ -108,7 +110,8 @@ You see the file ending is now .yml insted of .qmd.
 :::
 
 It will look like this in VSCode:
-![](https://pad.zdv.net/uploads/232a7b43-0610-4869-bf86-0b0690f8500f.png){fig-align="center"}
+
+![](images/website_03.png)
 
 #### Filling the .yml file
 
@@ -201,8 +204,18 @@ When all of these elements are added, we can save our .yml file and render our f
 
 ### The finished website:
 
-Now that we have added everything our "moma_website" o#folder should look something like this:
-![](https://pad.zdv.net/uploads/e844f2e7-da4e-43fe-8cfd-e9d4483eaf7f.png){fig-align="center"}
+Now that we have added everything our "moma_website" folder should look something like this:
 
-And our rendered result like this:
-![](https://pad.zdv.net/uploads/b8e50c67-0d46-4ee3-b6c7-4741e70e502c.png){fig-align="center"}
+![](images/website_04.png)
+
+And our rendered result could look like this:
+
+![](images/website_05.png)
+
+::::::::::::::::::::::::::::::::::::: keypoints
+
++ OQuarto can be used to create functioning websites
++ You can use multiple HTML documents made in quarto to create different pages for your website
++ The different HTML documents are connected by a singular overarching YAML file
+
+::::::::::::::::::::::::::::::::::::::::::::::
