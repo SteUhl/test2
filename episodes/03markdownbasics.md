@@ -7,7 +7,7 @@ exercises: 1
 ::: questions 
 
 - What is Markdown? 
-- How do you use Markdown to write in Quarto?
+- How do you use Markdown to write in Quarto? 
 - What are the most common parts of Markdown syntax?
   
 :::
