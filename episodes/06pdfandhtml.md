@@ -6,7 +6,7 @@ exercises: 1
 ::: questions 
 
 - What unique options exist for PDFs in Quarto?
-- What unique iptions exist for HTML in Quarto?
+- What unique iptions exist for HTML in Quarto? 
   
 :::
 
