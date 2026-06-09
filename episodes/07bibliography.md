@@ -31,7 +31,7 @@ For this part of the lesson, we will switch from Source Mode to Visual Mode, in 
 :::
 
 ## Footnotes:
-![](images/bibliography_footnotes01.png)
+![](images/bibliograpy_footnotes01.png)
 
 Footnotes offer an easy way to add useful information or literature to your text. 
 They can be implemented into your Quarto document by using the Insert -> Footnotes option in the Visual Mode of Quarto.
@@ -41,16 +41,16 @@ They can be implemented into your Quarto document by using the Insert -> Footnot
 Let us now add a quick footnote to our paper on the MoMA.
 In order to do so we just have to add the text for our footnote into the new textbox on tghe lower part of the VSCode window:
 
-![](images/bibliography_footnotes02.png)
+![](images/bibliograpy_footnotes02.png)
 
 ## Citations
 
 In a similar vein to footnotes, you can also directly add citations to your document. This can be done through the Insert window of the Visual Mode:
-![](images/bibliography_citations01.png)
+![](images/bibliograpy_citations01.png)
 
 Doing so will accomplish two things: It will open a new window called "Insert citation", and it will create a new file called "references.bib" in your working folder.
 
-![](images/bibliography_citations02.png)
+![](images/bibliograpy_citations02.png)
 
 
 This new file will contain your newly created bibliography, which can now be filled in a variety of ways.
@@ -60,7 +60,7 @@ Simply add relevant information such as the DOI, title or name of the author int
 In our paper we want to reference Alan Wallachs scentific review of the book "Museums and American Intellectual Life, 1876–1926 " by Steven Conn.
 In order to do so we can simply search for Alan Wallachs name using the Crossref database.
 
-![](images/bibliography_citations03.png)
+![](images/bibliograpy_citations03.png)
 
 By pressing the + button on the right, we can quickly add it to our bibliography.
 
@@ -68,7 +68,7 @@ We also want to add a reference to the the article "Selling the American Dream: 
 As we are not able to find the article using the integrated databanks, we have to add it manually. 
 In order to do this, you need to open your newly created references.bib file with a text editor of your choice. This can also be done in Visual Studio Code.
 
-![](images/bibliography_citations04.png)
+![](images/bibliograpy_citations04.png)
 
 In this file you will find all your already added references in form of code chunks.
 The citation function uses a format called Bibtex, which is used by a variety of databases. 
@@ -82,17 +82,17 @@ You can freely add or subtract information should you find yourself missing some
 You can now simply add further objects to your list of references by either manually typing in additional sources, or by copy and pasting the relevant BibTex chunks from other websites. Many Websites used to publish academic texts, such as Jstor, or libraries, offer the download of txt files containing the relevant BibTex Chunks as part of their own citation functions.
 Here is an example using Jstor:
 
-![](images/bibliography_citations05.png)
+![](images/bibliograpy_citations05.png)
 
 And here is how it looks when added to your reference.bib file:
 
-![](images/bibliography_citations06.png)
+![](images/bibliograpy_citations06.png)
 
 
 Once you have added the new code chunk to you refernces.bb file, you can save (Ctrl+S) and return to your "Insert Citation" window.
 Here you will now find your newly added reference as part of you bibliography:
 
-![](images/bibliography_citations07.png)
+![](images/bibliograpy_citations07.png)
 
 
 Now you can simply click on the different references in order to insert them into your work. 
@@ -102,7 +102,7 @@ The rendered Document will have the Authors name and the publication date in bra
 Using the reference feature will also create a reference index at the bottom of your rendered document. This index will contain a full bibliographical list of all used refences, using the information contained in the reference.bib file.
 The result could look something like this:
 
-![](images/bibliography_citations08.png)
+![](images/bibliograpy_citations08.png)
 
 ::: challenge
 
