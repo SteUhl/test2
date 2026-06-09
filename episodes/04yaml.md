@@ -362,19 +362,22 @@ After we added everything to our YAML header, it should look something like this
 
 After this we have added all of our metadata as Key-Value pairs, lets see how the renderes HRML version is in Quarto:
 
-<img style="display: block; margin: auto;" src="images/yaml_01.png" width="450">
+![](images/yaml_01.png)
 
 ::: challenge
+
 ### Exercise
 Now we will try to create a detailed YAML header for your own document. 
 Your header should contain informations on: Author (name, email, degree, role, affiliation), title and subtitle, date, keywords, copyright and funding.
+
 :::
 
-::: keypoints
+::::::::::::::::::::::::::::::::::::: keypoints
 
-* YAMl headers dictate the metadata and appearence of your document.
+* YAML headers dictate the metadata and appearence of your document.
 * YAML headers are made out of Key-Value pairs.
 * Key-Value pairs consist ofa predetermined key and a corresponding value
 * All Quarto documents contain simple YAML headers
 * Scientific papers utilize a wide variety of Key-value pairs to implement metadata
-:::
+
+::::::::::::::::::::::::::::::::::::::::::::::
