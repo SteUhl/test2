@@ -24,7 +24,9 @@ exercises: 1
 
 In order to work in a clean and organized environment, we will first create a new working folder and choose to use it in Visual Studio Code. 
 In order to do so, we will first open the options in the upper left corner of the window (depicted as three parallel horizontal lines). There we will follow the path of File -> Open Folder.
-![](https://pad.zdv.net/uploads/89f053f1-4950-470f-be98-72027f930988.png)
+
+<img style="display: block; margin: auto;" src="images/gettingstarted_01.png" width="350">
+
 Here we can then create a new folder, which we call ***"Art_distribution_paper"***.
 Once selected, it will open the folder in VSCode and select it as our new working environment. All new documents, outputs and relevant data will be stored in this folder.
 
@@ -40,7 +42,8 @@ As we are currently working on the very basics, we will choose the "Quarto Docum
 
 
 After opening the new file, you should see the following:
-![](https://pad.zdv.net/uploads/2974b175-732f-4557-a880-0c1adc03d6ad.png)
+
+<img style="display: block; margin: auto;" src="images/gettingstarted_02.png">
 
 The "empty" Documents only contain a small YAML header with generic information about title and format of the document.
 
@@ -59,20 +62,26 @@ We will be working with both the source and the visual layout of Quarto. You wil
 
 You can easily switch between the two editing modes by right clicking on your screen and selecting "Edit in Visual/Source Mode". This will instantly switch you over. 
 In this lesson we will continue to work with Source Mode.
-![](https://pad.zdv.net/uploads/12db663e-89fe-4cdd-84c2-21eb07a28a50.png)
+
+<img style="display: block; margin: auto;" src="images/gettingstarted_03.png" width="350">
 
 :::
 
 ## Rendering Your document
 
 To render your document and see its final look, you need to click the "Preview" Button on the top right side of the screen:
-![](https://pad.zdv.net/uploads/b0c60c98-a6ad-4c02-b6a2-3fc628fd785b.png)
+<img style="display: block; margin: auto;" src="images/gettingstarted_04.png">
+
 Alternatively you can use Ctrl+Shift+K.
 
 This will have two effects:
-1. It will create a new file in your "Art_distribution_paper" folder, corresponding to your chosen format. ![](https://pad.zdv.net/uploads/68e58119-6a57-4219-bc7d-4b1e17eed1f5.png)
+1. It will create a new file in your "Art_distribution_paper" folder, corresponding to your chosen format.
    
-2. It will split your screen and show you your preview on the right side of VSCode. ![](https://pad.zdv.net/uploads/2eee2022-bec3-4f53-ba78-4dfb510a97bb.png)
+    <img style="display: block; margin: auto;" src="images/gettingstarted_06.png" width="150">
+   
+3. It will split your screen and show you your preview on the right side of VSCode.
+   
+   <img style="display: block; margin: auto;" src="images/gettingstarted_05.png" width="550">
 
 ::: challenge
 ### Exercise:
