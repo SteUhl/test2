@@ -15,7 +15,7 @@ exercises: 2
 ::: objectives
 
 - Implement Python, Mermaid and Graphviz code in your Quarto document.
-- Create Visualisations of Python code using plotly.
+- Create Visualisations of Python code using plotly. 
 - Create a barchart in Quarto using Mermaid.
 - Create a flowchart in Quarto using Graphviz.
 - Enrich your generated Visualisations by adding format and information in comments.
