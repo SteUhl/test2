@@ -27,11 +27,13 @@ In order to do so you need to simply insert your code into the document.
 In this lesson we will mostly implement python code, as well as several integrated coding languages.
 
 ::: callout
+
 ### Note:
 By default, code inserted via Markdown will be shown as code blocks in the rendered document. If you want to use collapsable or hidden code blocks in your renders, simply add 'code-fold: true' to your YAML section.
 
 One can not only insert code into one’s documents, but also directly visualize it in order to create illustrations based on the inserted code. 
 This can be done in a variety of ways, such as using already integrated programming languages like mermaid, or by importing and using extensions like plotly in Python code cells.
+
 :::
 
 
@@ -73,7 +75,7 @@ When rendered the pie chart will not show the numbers used in the code. Instead 
     
 The resulting pie chart would look like this in your rendered paper: 
 
-<img style="display: block; margin: auto;" src="images/code_01.png" width="550">
+![](images/code_01.png)
 
 
 
@@ -143,7 +145,7 @@ The forth step {rank = same} is optional and dictates that the three categories 
 ::: solution
 ### Here is an example of this Graphviz in your document: 
 
-<img style="display: block; margin: auto;" src="images/code_02.png" width="550">
+![](images/code_02.png)
 
 :::
 
@@ -229,18 +231,21 @@ The result could look something like this:
 
 Using the Plotly library, the python code is now loaded into our quarto document and will be shown in our rendred document as a barchart.
 
-Using this Code chuck in VSCode could look like the following example:
+Using this code chuck in VSCode could look like the following example:
 
-<img style="display: block; margin: auto;" src="images/code_03.png" width="550">
+![](images/code_03.png)
 
 
 ::: caution
+
 ### Caution!
 Not all forms of visualisation work in every format. In this example Plotly only works in html formats, not in pdf or similar formats.
+
 :::
 
 
 ::: caution
+
 ### Caution:
 
 Every Coding language has a different way of creating comments. The ones used in this Lesson are the following:
@@ -248,4 +253,14 @@ Every Coding language has a different way of creating comments. The ones used in
 Python: ##|
 Mermaid: %%|
 Graphviz: //|
+
 :::
+
+::::::::::::::::::::::::::::::::::::: keypoints
+
++ Quarto can directly implement Code and render Code via code chunks 
++ Mermaid is an integrated coding language that can be used to create common charts such as pie and bar charts
++ Graphviz is an integrated coding language that can be used to create more complex flowgharts and relationship models
++ Illustrations and graphs can be sized and annotated via comments
+
+::::::::::::::::::::::::::::::::::::::::::::::
