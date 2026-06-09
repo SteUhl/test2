@@ -6,7 +6,7 @@ exercises: 0
 
 ::: questions 
 
-+ What is Quarto and how can it be used to publish data?
++ What is Quarto and how can it be used to publish data? 
 + What Options does Quarto give to customize your experience?
 
 :::
