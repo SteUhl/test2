@@ -361,7 +361,8 @@ After we added everything to our YAML header, it should look something like this
 ```
 
 After this we have added all of our metadata as Key-Value pairs, lets see how the renderes HRML version is in Quarto:
-![](https://pad.zdv.net/uploads/b40b0560-c46d-46d9-8ff8-66a0e3882eb0.png)
+
+<img style="display: block; margin: auto;" src="images/yaml_01.png" width="450">
 
 ::: challenge
 ### Exercise

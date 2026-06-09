@@ -72,7 +72,9 @@ When rendered the pie chart will not show the numbers used in the code. Instead 
     ```
     
 The resulting pie chart would look like this in your rendered paper: 
-![](https://pad.zdv.net/uploads/38f52583-9659-4eb4-a409-57f8d2fcf3f3.png)
+
+<img style="display: block; margin: auto;" src="images/code_01.png" width="550">
+
 
 
 
@@ -140,7 +142,8 @@ The forth step {rank = same} is optional and dictates that the three categories 
 
 ::: solution
 ### Here is an example of this Graphviz in your document: 
-![](https://pad.zdv.net/uploads/ba70f6c0-391d-4ab5-b503-512cc2894344.png)
+
+<img style="display: block; margin: auto;" src="images/code_02.png" width="550">
 
 :::
 
@@ -227,7 +230,8 @@ The result could look something like this:
 Using the Plotly library, the python code is now loaded into our quarto document and will be shown in our rendred document as a barchart.
 
 Using this Code chuck in VSCode could look like the following example:
-![](https://pad.zdv.net/uploads/1aaad49a-e618-486d-b63c-b368b59a3ce8.png)
+
+<img style="display: block; margin: auto;" src="images/code_03.png" width="550">
 
 
 ::: caution
