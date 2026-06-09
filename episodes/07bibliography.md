@@ -31,12 +31,11 @@ For this part of the lesson, we will switch from Source Mode to Visual Mode, in 
 :::
 
 ## Footnotes:
-![](images/bibliograpy_footnotes01.png)
 
 Footnotes offer an easy way to add useful information or literature to your text. 
 They can be implemented into your Quarto document by using the Insert -> Footnotes option in the Visual Mode of Quarto.
 
-
+![](images/bibliograpy_footnotes01.png)
 
 Let us now add a quick footnote to our paper on the MoMA.
 In order to do so we just have to add the text for our footnote into the new textbox on tghe lower part of the VSCode window:
@@ -46,6 +45,7 @@ In order to do so we just have to add the text for our footnote into the new tex
 ## Citations
 
 In a similar vein to footnotes, you can also directly add citations to your document. This can be done through the Insert window of the Visual Mode:
+
 ![](images/bibliograpy_citations01.png)
 
 Doing so will accomplish two things: It will open a new window called "Insert citation", and it will create a new file called "references.bib" in your working folder.
