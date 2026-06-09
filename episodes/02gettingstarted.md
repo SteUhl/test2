@@ -6,7 +6,7 @@ exercises: 1
 
 ::: questions
 
-+ How do i open a new Quarto document?
++ How do i open a new Quarto document? 
 + What editing modes exist?
 + How do i switch between modes?
 
