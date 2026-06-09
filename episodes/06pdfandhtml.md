@@ -3,6 +3,7 @@ title: "Quarto for PDF and HTML"
 teaching: 0
 exercises: 1
 ---
+
 ::: questions 
 
 - What unique options exist for PDFs in Quarto?
@@ -104,11 +105,21 @@ To implement such a theme you simply need to add it to your YAML header like thi
       dark: darkly
 ```
 The following example uses the two styles shown above:
-<img style="display: block; margin: auto;" src="/episodes/images/pdfhtml_02.png">
-<img style="display: block; margin: auto;" src="/episodes/images/pdfhtml_01.png">
+
+![](images/pdfhtml_02.png)
+![](images/pdfhtml_01.png)
+
 
 ::: challenge
+
 ### Exercise:
 Decide if you would like to continue with a PDF or HTML. Then try out the new YAML headers and options in your document. Be creative!
 
 :::
+
+::::::::::::::::::::::::::::::::::::: keypoints
+
++ When rendering as a PDF, the YAMl header can be used to select templates, layouts and fonts
++ When rendering as HTML, the YAML header can be used to select different themes
+
+::::::::::::::::::::::::::::::::::::::::::::::
