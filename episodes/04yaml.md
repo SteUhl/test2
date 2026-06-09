@@ -7,7 +7,7 @@ exercises: 2
 ::: questions 
 
 - What is YAML?
-- How to use a YAML header?
+- How to use a YAML header? 
 - What are the most useful Key-Value pairs for a scientific paper?
   
 :::
