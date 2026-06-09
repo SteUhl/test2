@@ -30,7 +30,7 @@ These features contain some of the most common elements of written texts, such a
 The implementation of picrtures is also possible to implement pictures in Markdown.
 Some of the most useful parts of Markdown syntax are shown here:
 
-<img style="display: block; margin: auto;" src="images/markdown_01.png" width="350">
+![](images/markdown_01.png)
 
 ## Writing our paper with Markdown
 
@@ -116,7 +116,7 @@ Now we can add a table to our document. For this we "draw" a table in Markdown l
 The different sections of the table are devided by |.
 
 When we have now added our Table and Image to ourtext it Could look something like this when rendered:
-<img style="display: block; margin: auto;" src="images/markdown_02.png" width="550">
+![](images/markdown_02.png)
 
 ::: challenge
 
@@ -132,3 +132,12 @@ Try to use a variety of features stuch as pictures or line breaks, be creative!
 Should you need some help with Markdown or want to deepen your understanding of this extremely usefull language, there are a plethora of websites aimed at helping newcomers learn all there is about Matkdown.
 Websites like [MarkdownGuide](https://www.markdownguide.org/) offer a wide variety of guides, cheat sheets and help.
 :::
+
+::::::::::::::::::::::::::::::::::::: keypoints
+
++ Quarto uses MArkdown as its core language
++ You can use # to create headings in Markdown
++ You can use `![text](Link/directory)` to implement images
++ You can "draw" tables in Markdown
+
+::::::::::::::::::::::::::::::::::::::::::::::
