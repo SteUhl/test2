@@ -156,7 +156,7 @@ We want the navigation bar to be sepetarted into two sections. On the left we wa
 On the right side we want to add an icon that leed to the GitHub page of the project. 
 As a footer we simply add a textblock in the center. It will contain the names of our authors as well as their universities.
 
-When we add all this information into our YAML file, it could look somewhat like this:
+When we add all this information into our YAML file, it should look somewhat like this:
 
 ``` {YAML}
 website:
