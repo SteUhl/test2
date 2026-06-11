@@ -50,6 +50,6 @@ Finally we are finished with our paper! But now the option to create a complimen
 
 ::: caution
 
-Of course all of theseoptions are open to you at all pints. When using Quarto to publish you can freely combine all these functions and steps to create your own workflow!
+Of course all of these options are open to you at all pints. When using Quarto to publish you can freely combine all these functions and steps to create your own workflow!
 
 :::
