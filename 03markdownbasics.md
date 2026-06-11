@@ -30,7 +30,7 @@ These features contain some of the most common elements of written texts, such a
 The implementation of picrtures is also possible to implement pictures in Markdown.
 Some of the most useful parts of Markdown syntax are shown here:
 
-![](images/markdown_01.png)
+![A table with an overview of basic Markdown syntax](images/markdown_01.png)
 
 ## Writing our paper with Markdown
 
